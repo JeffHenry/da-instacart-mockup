@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Shopping Site</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <div class="menu" onclick="toggleMenu()">
+        &#9776;
+        <h1 class="logo">InstaShop</h1>
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="Search Products and Stores" />
+      </div>
+
+      <div class="auth-buttons">
+        <button class="login-btn" onclick="window.location.href='payments.html'">
+          Log in
+        </button>
+        <button class="signup-btn" onclick="window.location.href='signup.html'">
+          Sign up
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>All stores in <span>Los Angeles</span></h2>
+      <div class="store-listings">
+        <div class="store-card">
+          <h3 class="store-name">Ralphs</h3>
+          <div class="store-meta">
+            <p class="delivery-time">Delivery by 2:00 PM</p>
+            <p class="distance">1.2mi</p>
+          </div>
+          <div class="tags">
+            <span class="tag ebt">EBT</span>
+            <span class="tag loyalty-savings">Loyalty Savings</span>
+          </div>
+        </div>
+        <div class="store-card">
+          <h3 class="store-name">Sprouts</h3>
+          <div class="store-meta">
+            <p class="delivery-time">Delivery by 2:00 PM</p>
+            <p class="distance">1.5mi</p>
+          </div>
+          <div class="tags">
+            <span class="tag">Sales</span>
+            <span class="tag">Low Prices</span>
+          </div>
+        </div>
+        <div class="store-card">
+          <h3 class="store-name">Target</h3>
+          <div class="store-meta">
+            <p class="delivery-time">Delivery by 2:00 PM</p>
+            <p class="distance">1.7mi</p>
+          </div>
+          <div class="tags">
+            <span class="tag">EBT</span>
+            <span class="tag">Sales</span>
+            <span class="tag">Low Prices</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container">
+      <p>
+        Designed by
+        <a href="https://github.com/JeffHenry" target="_blank" class="footer-link">Jeffrey Henry</a>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
